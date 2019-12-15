@@ -292,3 +292,61 @@ footer a:hover {
 .footer-content a:hover:first-child {
     cursor: default;
 }
+
+/* MEDIA */
+
+@media (max-width: 767px) {
+
+    header .splash-welcome {
+        width: 85%;
+        text-align: center;
+    }
+
+    header .splash-welcome h1 {
+        font-size: 18px;
+    }
+
+    header .splash-welcome h3 {
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+
+    .navigation ul li a {
+        font-size: 12px;
+    }
+
+    .navigation ul li:first-child {
+        margin-right: 40px;
+    }
+
+    .services .container .wrapper {
+        flex-direction: column;
+    }
+
+    .services .wrapper .boxes {
+        margin-bottom: 48px;
+        width: 70%;
+        left: 50%;
+        transform: translate(-50%);
+        height: 100%;
+    }
+
+    .portfolio .photo-boxes {
+        flex: 50%;
+    }
+
+    footer {
+        font-size: 18px;
+        height: 200px;
+    }
+
+    footer ul {
+        padding: 0;
+    }
+
+    .footer-content {
+        top: 60%;
+        left: 50%;
+        transform: translate(-60%, -50%);
+    }
+}
